@@ -1,0 +1,30 @@
+.imge{
+    width:400px;
+    height: 500px;
+    object-fit: contain;
+    object-position: top;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    display:block;
+
+
+}
+.In{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.para1{
+    margin-bottom:0px;
+}
+.para3{
+    margin-top: 10px;
+    margin-bottom: 0px;;
+    font-size: 17px;
+    display:block;
+}
+.para2{
+    display:block;
+    margin-bottom:0px;
+}
