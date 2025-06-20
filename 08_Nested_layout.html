@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="08_Nested_layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    
+
+</head>
+<body style="margin:0;height:3000px;padding-top:60px;padding-left:90px">
+    
+     <div class="header" style="display:flex; height:60px; flex-direction:row; justify-content: space-between;position: fixed;top:0px;left:0px; right:0px;background-color: white;z-index: 100;">
+        <div style="width:200px;  display:flex;align-items: center; justify-content: space-around;flex-shrink: 0;">
+            <img src="./06_Image/menu.png" alt="" style="width: 30px;">
+            <img src="./06_Image/youtube.png" alt="" style="width: 40px;">
+          
+
+        </div>
+        <div style=" flex:1; margin-left:50px;margin-right:50px; display:flex;flex-direction:row;align-items: center;;max-width:500px; padding-left:20px; ;;">
+            <input type="text" placeholder="Search" style="height:30px; flex:1;max-width: 300px;border-radius: 0%;border-width:1px;border-style:solid;padding-left:10px;font-size:16px;box-shadow:inset 1px 1px 3px rgba(0,0,0,0.15);">
+            <img src="./06_Image/search.png" alt="" style="width:29px ;padding-top:1px;padding-bottom:1px; border-width: 1px;border-style:solid
+            ; border-radius: 0%; background-color: rgb(255, 252, 252); border-color:rgb(229, 223, 223); margin-left:-1px;margin-right:8px;">
+           
+            <img src="./06_Image/mic.png" alt="" style="width:29px ;padding-top:1px;padding-bottom:1px; border-width: 1px;border-style:groove
+            ; border-radius: 100%; background-color: rgb(249, 246, 246); border-color:rgb(247, 244, 244); margin-left:-1px;">
+           
+
+        </div>
+        <div style=" display:flex;flex-direction:row;align-items: center;justify-content: space-around ;width:350px; flex-shrink: 0;">
+          <img src="./06_Image/camera.gif" alt="" style="width: 30px;">
+            <img src="./06_Image/dot_menu.png" alt=""  style="width: 30px;">
+            <div style=" position: relative;">
+                <img src="./06_Image/bell.png" alt=""  style="width: 30px;">
+                <div style=" font-size:11px;font-weight: bold; background-color: rgb(232, 38, 38);color: white;border-radius: 10px;position: absolute ;right:-3px;top:-2px;padding-left:6px;padding-right: 6px;padding-top:4px;padding-bottom:2px;">
+                    3
+                </div>
+
+            </div>
+            <img src="./08_Profile.jpg" alt=""  style="width: 30px;">
+        </div>
+    </div>
+    <div class="side" style="position:fixed;left:0px;bottom:0px;top:60px;width:90px ; padding-right: 40px;">
+       <div class="sidebar">
+        <img src="06_Image/home.png" alt="">
+        <div class="sidef">Home</div>
+       </div>
+       <div class="sidebar">
+        <img src="06_Image/explore.gif" alt="">
+         <div class="sidef">Explore</div>
+       </div>
+       <div class="sidebar">
+        <img src="06_Image/original.png" alt="">
+         <div class="sidef">Original</div>
+       </div>
+       <div class="sidebar">
+        <img src="./06_Image/subscription.png" alt="">
+         <div class="sidef">Subscription</div>
+       </div>
+       <div class="sidebar">
+        <img src="06_Image/music.gif" alt="">
+         <div class="sidef">Music</div>
+       </div>
+       <div class="sidebar">
+        <img src="06_Image/rename.png" alt="">
+         <div class="sidef">Library</div>
+       </div>
+    </div>
+    <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; row-gap: 20px;column-gap: 20px;">
+        <div class="Outer">
+    
+            <div style="position:relative">
+                 <img src="./06_Image/image.webp" alt="" class="imge">
+                 <div style="position: absolute; background-color: black;color: white;bottom:10px;right:7px;">5:00</div>
+            </div>
+            <div style="display:grid ; grid-template-columns:50px 1fr">
+    
+                <div class="profilepic">
+         
+                    <img src="08_Profile.jpg" alt="">
+                </div>
+                <div class="profileinfo">
+                    <p>Projects Using HTML, CSS & JavaScript in </p>
+                     <p class="small">Code with Harry</p>
+                    <p class="small">3.4M 6Months</p>
+        
+        
+                </div>
+    
+    
+            </div>
+            
+        </div>
+        <div class="Outer">
+    
+            <div>
+                 <img src="./06_Image/image.webp" alt="" class="imge">
+            </div>
+            <div style="display:grid ; grid-template-columns:50px 1fr">
+    
+                <div class="profilepic">
+        
+                    <img src="08_Profile.jpg" alt="">
+                </div>
+                <div class="profileinfo">
+                    <p>Projects Using HTML, CSS & JavaScript in </p>
+                     <p class="small">Code with Harry</p>
+                    <p class="small">3.4M 6Months</p>
+        
+        
+                </div>
+    
+    
+            </div>
+            
+        </div>
+
+        <div class="Outer">
+    
+            <div>
+                 <img src="./06_Image/image.webp" alt="" class="imge">
+            </div>
+            <div style="display:grid ; grid-template-columns:50px 1fr">
+    
+                <div class="profilepic">
+         
+                    <img src="08_Profile.jpg" alt="">
+                </div>
+                <div class="profileinfo">
+                    <p>Projects Using HTML, CSS & JavaScript in </p>
+                     <p class="small">Code with Harry</p>
+                    <p class="small">3.4M 6Months</p>
+        
+        
+                </div>
+    
+    
+            </div>
+            
+        </div>
+        <div class="Outer">
+    
+            <div>
+                 <img src="./06_Image/image.webp" alt="" class="imge">
+            </div>
+            <div style="display:grid ; grid-template-columns:50px 1fr">
+    
+                <div class="profilepic">
+        
+                    <img src="08_Profile.jpg" alt="">
+                </div>
+                <div class="profileinfo">
+                    <p>Projects Using HTML, CSS & JavaScript in </p>
+                     <p class="small">Code with Harry</p>
+                    <p class="small">3.4M 6Months</p>
+        
+        
+                </div>
+    
+    
+            </div>
+            
+        </div>
+
+        <div class="Outer">
+    
+            <div>
+                 <img src="./06_Image/image.webp" alt="" class="imge">
+            </div>
+            <div style="display:grid ; grid-template-columns:50px 1fr">
+    
+                <div class="profilepic">
+         
+                    <img src="08_Profile.jpg" alt="">
+                </div>
+                <div class="profileinfo">
+                    <p>Projects Using HTML, CSS & JavaScript in </p>
+                     <p class="small">Code with Harry</p>
+                    <p class="small">3.4M 6Months</p>
+        
+        
+                </div>
+    
+    
+            </div>
+            
+        </div>
+        <div class="Outer">
+    
+            <div>
+                 <img src="./06_Image/image.webp" alt="" class="imge">
+            </div>
+            <div style="display:grid ; grid-template-columns:50px 1fr">
+    
+                <div class="profilepic">
+        
+                    <img src="08_Profile.jpg" alt="">
+                </div>
+                <div class="profileinfo">
+                    <p>Projects Using HTML, CSS & JavaScript in </p>
+                     <p class="small">Code with Harry</p>
+                    <p class="small">3.4M 6Months</p>
+        
+        
+                </div>
+    
+    
+            </div>
+            
+        </div>
+
+
+
+    </div>
+   
+  
+    
+    
+</body>
+</html>

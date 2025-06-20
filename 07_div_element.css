@@ -1,0 +1,36 @@
+
+
+.div1{
+    width:400px;
+    display:inline-block;
+}
+.imge{
+    width:400px;
+   
+    object-fit: contain;
+    object-position: top;
+  
+   
+
+
+}
+.In{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left:300px;
+   
+    display:block;
+}
+.para1{
+    margin-bottom:0px;
+}
+.para3{
+    margin-top: 10px;
+    margin-bottom: 0px;;
+    font-size: 17px;
+  
+}
+.para2{
+   
+    margin-bottom:0px;
+}

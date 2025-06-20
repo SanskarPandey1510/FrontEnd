@@ -1,0 +1,46 @@
+.profilepic{
+    display: inline-block;
+    width:50px;
+}
+.profileinfo{
+    display:inline-block;
+    display: 100px;
+}
+p{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family: Roboto,Arial;
+    line-height: 20px;
+}
+.Outer{
+    display:inline-block;
+}
+.SearchBox{
+    margin-bottom: 20px;
+    margin-left:100px;
+    display:block;
+
+}
+.imge{
+    width:100%;
+}
+.small{
+    font-size: 15px;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+   
+}
+.sidebar{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 75px;
+
+
+}
+.sidebar img{
+    width: 30px;
+}
